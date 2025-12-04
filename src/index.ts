@@ -5,7 +5,7 @@ const test = () => {
 };
 
 const test2 = () => {
-  console.log("This is another test function.");
+  console.log("This is another test function. We are here too");
 };
 
 test2();
