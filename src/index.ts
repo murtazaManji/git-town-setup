@@ -1,6 +1,6 @@
 const test = () => {
   console.log(
-    "Hello, World! test git town changes here also we are here this is the one change we are here also here are the changes too"
+    "Hello, World! test git town changes here also we are here this is the one change we are here also"
   );
 };
 
@@ -8,8 +8,8 @@ const test2 = () => {
   console.log("This is another test function. We are here too");
 };
 
-const test3 = () => {
-  console.log("This is 3rd test function.");
+const testing = () => {
+  console.log("This is a new testing function after changes.");
 };
 
 test2();
