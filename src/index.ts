@@ -8,5 +8,9 @@ const test2 = () => {
   console.log("This is another test function. We are here too");
 };
 
+const testing = () => {
+  console.log("This is a new testing function after changes.");
+};
+
 test2();
 test();
