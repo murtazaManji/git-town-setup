@@ -1,11 +1,11 @@
 const test = () => {
   console.log(
-    "Hello, World! test git town changes here also this is the one change here are the changes too"
+    "Hello, World! test git town changes here also we are here this is the one change we are here also here are the changes too"
   );
 };
 
 const test2 = () => {
-  console.log("This is another test function.");
+  console.log("This is another test function. We are here too");
 };
 
 const test3 = () => {
