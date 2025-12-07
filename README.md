@@ -1,4 +1,6 @@
-# Git Town Commands for Stack PR Workflow
+# Git Town Commands
+
+### Focusing Stacked PR
 
 This guide provides the essential Git Town commands used when working with stacked pull requests. It includes initial setup, branch management, syncing, proposing PRs, and shipping changes.
 
@@ -152,3 +154,54 @@ This will:
 ---
 
 Use this reference whenever working with Git Town's stacked PR workflow to keep your branches clean, organized, and efficient.
+
+## 11. Detach a Branch
+
+Detach a branch from its parent and attach it directly to `main`.
+
+```bash
+git town detach <branch>
+```
+
+This removes the branch from the stack structure.
+
+---
+
+## 12. Compress Commits in a Branch
+
+Squash all commits in the current branch into a single commit.
+
+```bash
+git town compress
+```
+
+Useful before proposing or shipping a branch to keep history clean.
+
+---
+
+## 13. Merge Current Branch Into Parent
+
+Merge your current branch into its parent branch while keeping the stack structure intact.
+
+```bash
+git town merge
+```
+
+This will:
+
+- Merge the current branch → parent branch
+- Reassign its child branches so their new parent becomes the parent branch
+
+---
+
+## 14. Swap Two Branches
+
+Swap positions of two branches in the stack.
+
+```bash
+git town swap <branch-1> <branch-2>
+```
+
+Useful to reorder the stack without rewriting history manually.
+
+---
