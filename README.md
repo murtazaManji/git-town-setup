@@ -1,17 +1,60 @@
 # Git Town Commands
 
-### Focusing Stacked PR
+## Installing Git Town (Mac, Linux, Windows)
 
-This guide provides the essential Git Town commands used when working with stacked pull requests. It includes initial setup, branch management, syncing, proposing PRs, and shipping changes.
+### **macOS**
+
+```bash
+brew install git-town
+```
+
+### **Linux**
+
+Using Homebrew on Linux:
+
+```bash
+brew install git-town
+```
+
+Using apt (Ubuntu/Debian):
+
+```bash
+sudo apt update
+sudo apt install git-town
+```
+
+Using yum (RHEL/CentOS/Fedora):
+
+```bash
+sudo yum install git-town
+```
+
+### **Windows**
+
+Using Scoop:
+
+```powershell
+scoop install git-town
+```
+
+Using Chocolatey:
+
+```powershell
+choco install git-town
+```
 
 ---
+
+## Focusing Stacked PR
+
+This guide provides the essential Git Town commands used when working with stacked pull requests. It includes initial setup, branch management, syncing, proposing PRs, and shipping changes.
 
 ## 1. Initialize Git & Configure Git Town
 
 ### **Initialize Git**
 
 ```bash
-git init
+git town init
 ```
 
 ### **Configure Git Town Manually (No setup command)**
