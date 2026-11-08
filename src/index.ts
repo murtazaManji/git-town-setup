@@ -1,5 +1,5 @@
 const test = () => {
-  console.log("Hello, World! test git town changes here, changing some content here");
+  console.log("Hello, World! test git town changes here.");
 };
 
 test();
